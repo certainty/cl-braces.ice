@@ -1,0 +1,72 @@
+:root {
+  --crust: #11111b;
+  --mantle: #181825;
+  --base: #1e1e2e;
+  --surface0: #43465a;
+  --surface1: #43465a;
+  --surface2: #565970;
+  --overlay0: #696d86;
+  --overlay1: #7b819d;
+  --overlay2: #8e95b3;
+  --text: #c6d0f5;
+  --subtext0: #a1a8c9;
+  --subtext1: #b3bcdf;
+
+  --flamingo: #f2cdc;
+  --rosewater: #f5e0dc;
+  --red: #f38ba8;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --blue: #87b0f9;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --saphire: #74c7ec;
+  --lavendar: #b4befe;
+}
+
+body {
+  background-color: var(--base);
+  color: var(--text);
+}
+
+#main {
+  padding-top: 70px;
+  display: block;
+  min-height: 200px;
+}
+
+.sidebar-open {
+  margin-left: 130px;
+}
+
+#header {
+  height: 60px;
+  background-color: var(--mantle);
+  border-bottom: 1px solid var(--rosewater);
+}
+
+.logo {
+  color: var(--mauve);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--mantle);
+}
+
+#footer {
+  background-color: var(--mantle);
+}
